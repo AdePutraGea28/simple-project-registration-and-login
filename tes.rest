@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/api/user/register/
+Content-Type: application/json
+
+{
+    "name": "Puatra",
+    "email": "gegea@gmail.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/api/user/login/
+Content-Type: application/json
+
+{
+    "email": "gegea@gmail.com",
+    "password": "123456"
+}
+
+###
+GET http://localhost:3000/api/posts
+auth-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjEwNGFhNzZmNDM0NTdmNzhiZDEwMmQiLCJpYXQiOjE2NDUyMzg3Mzh9.UQpwQoMp4DEqhC78CePzLVLwFMp_qWy1lhNGN4LOfWY
